@@ -1,0 +1,204 @@
+<html>
+	<head>
+	<title>Name JavaScript</title>
+	<style>
+		body{
+		background-image: radial-gradient(circle,rgba(254, 245, 231), rgba(174, 214, 241,0.5))
+		}
+
+		#my{ 
+
+		margin-top:40px;
+		text-align:center;
+		}
+		
+		label{
+			font-size:28px;
+			font-weight:bolder;
+			margin-top:30px;
+		}
+		button{
+			border-radius:20px;
+			font-size:10px;
+			background-color: white;
+			color: black;
+			border: 2px solid #555555;
+			height:30px;
+			width:80px;
+		}
+		button:hover {
+		background-color: #555555;
+		color: white;
+		}
+		input[type="text"]{
+			height:40px;
+		}
+		.border:hover
+		{
+        box-shadow: inset 0 0 0 25px #C0C0C0;
+		}
+		#i{
+				height:200px;
+				padding-top:60px;
+				animation: gone 10s ease-out infinite;
+		}
+		@keyframes gone {
+				0% {
+				transform: scale(1.5) translateY(-0.75em);
+				}
+				89% {
+				transform: scale(1);
+				}
+				100% {
+				transform: translateZ(-1000em);
+				}
+				}
+		
+	</style>
+	<script>
+		function myFunc()
+			{
+				var x = document.getElementById("i") ;
+				x.style.display='block';
+			}
+			
+		const input = document.querySelector('input');
+		const i = document.getElementById('i');
+	</script>
+	</head>
+	<body>
+	<div id=my>
+	<label>Enter your name:</label> &nbsp; &nbsp; &nbsp; &nbsp; 
+	<input type="text" name="inp" autofocus onfocus="this.value=''">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	<button name="b1" onclick="iHave(document.getElementsByName('inp')[0].value); myFunc();">CLICK ME</button>
+	<button name="b2" onclick="myres()">RESET</button>
+	<div class="border" id="i" style="margin-top:100px; text-align:center; display:none"></div>
+	</div>
+	<script>
+		function iHave(y){
+			var x = y.split('');
+			for(v=0;v<x.length;v++){
+			
+			if(x[v]==" " || x[v]==" "){
+				var m=document.getElementById('i');
+				m.innerHTML+="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"
+				}
+				
+			if(x[v]=="a" || x[v]=="A"){
+				var m=document.getElementById('i');
+				m.innerHTML+="<img src='a.png' style='height:100px; width:100px'>";
+				}
+				
+			if(x[v]=="b" || x[v]=="B"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='b.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="c" || x[v]=="C"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='c.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="d" || x[v]=="D"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='d.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="e" || x[v]=="E"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='e.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="f" || x[v]=="F"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='f.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="g" || x[v]=="G"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='g.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="h" || x[v]=="H"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='h.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="i" || x[v]=="I"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='i.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="j" || x[v]=="J"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='j.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="k" || x[v]=="K"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='k.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="l" || x[v]=="L"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='l.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="m" || x[v]=="M"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='m.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="n" || x[v]=="N"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='n.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="o" || x[v]=="O"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='o.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="p" || x[v]=="P"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='p.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="q" || x[v]=="Q"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='q.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="r" || x[v]=="R"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='r.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="s" || x[v]=="S"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='s.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="t" || x[v]=="T"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='t.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="u" || x[v]=="U"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='u.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="v" || x[v]=="V"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='v.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="w" || x[v]=="W"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='w.jpg' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="x" || x[v]=="X"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='x.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="y" || x[v]=="Y"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='y.png' style='height:100px; width:100px'>"
+				}
+			if(x[v]=="z" || x[v]=="Z"){
+				var m = document.getElementById('i');
+				m.innerHTML += "<img src='z.png' style='height:100px; width:100px'>"
+				}
+			}
+		}
+		
+		function myres(){
+			document.getElementById("i").innerHTML="";
+
+		}
+	</script>
+	<footer style=" width:100%;height:60px;position:absolute;bottom:0;background-color:#1C2833; padding:20px">
+		 <label style="font-size:25px;color:white">&copy Ranu Rajput</label>
+	</footer>
+	</body>
+</html>

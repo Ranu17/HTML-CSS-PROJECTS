@@ -1,0 +1,35 @@
+#biodiv{
+	height: 60%;
+	width: 600px;
+	margin-top: 5%;
+	padding-top: 2%;
+	padding-left: 2%;
+	background-color: white;
+	position: absolute;
+	left: 400px;
+	z-index: 2;
+}
+
+body{
+	background-image: url(washi.png);
+	background-color: gray;
+	background-attachment: fixed;
+}
+
+h1{
+	text-align: center;
+	font-size: 40px;
+}
+
+#inside{
+	font-size: 25px;
+	opacity: 0%;
+	z-index: 1;
+}
+
+#navb{
+	width: 100%;
+	height: 60px;
+	background-color: #333; 
+	color: white;
+}

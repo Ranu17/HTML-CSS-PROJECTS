@@ -1,0 +1,95 @@
+body{
+	background-image: radial-gradient(circle,rgba(255, 0, 0, 0.6), hsla(0, 100%, 90%, 0.3)),url(flowers.png);
+	background-color: black;
+}
+
+header ul{
+	list-style-type:none;
+	list-style-position: inside;
+	position:absolute;
+	padding:0%;
+}
+
+header{
+	background-color: #333;
+	width:100vw;
+    height:10vh;
+	padding:0%;
+	position:fixed;
+	display:flex;
+}
+
+ul li{
+	background-color: #333;
+	width: 200;
+	height: 50px;
+	padding-left: 20px;
+	padding-right: 40px;
+	font-size: 25px;
+	color: white;
+	float:left;
+	display: flex;
+}
+
+#d1_1{
+	position:absolute;
+	bottom:0%;
+	left:50%;
+	font-size:30px;
+	font-face: aerial;
+	text-align: center;
+	left:30%;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+img{
+	position: absolute;
+	left: 25%;
+	top:100px;
+	height: 400px;
+	width: 700px;
+}
+
+#navb{
+	width: 100%;
+	height: 60px;
+	background-color: #333; 
+}
+
+section{
+	height: 100vh;
+	border-style: solid;
+	border-color:beige;
+	border-width: 1px;
+
+}
+
+#biodiv{
+	padding:10%;
+	justify-content:center;
+	align-content:center;
+	align-items:center;
+}
+
+h1{
+	text-align: center;
+	font-size: 40px;
+}
+
+#inside{
+	font-size: 25px;
+	opacity: 0%;
+	z-index: 1;
+}
+
+#navb{
+	width: 100%;
+	height: 60px;
+	background-color: #333; 
+	color: white;
+}
+
